@@ -2,11 +2,12 @@
 .red-logo{
   padding-top: 3%;
   padding-left: 5%;
+  color: #060607;
 }
 
 .menu{
   float: right;
-  padding-top: 1%;
+  padding-top: 2%
 }
 
 .menu li{
@@ -81,6 +82,11 @@
 /* Animation */
 
 //Header//
+
+.hamburguer{
+  display: none;
+}
+
 .main-content{
   width: 100%;
 }
@@ -93,7 +99,6 @@
   background-position-x: 48%;
   float: left;
   width: 55%;
-
 }
 
 
@@ -121,9 +126,9 @@
 
 
 .about-me p{
-  font-size: 25px;
+  font-size: 1.56rem;
 }
-
+//Pixeles actuales % 16//
 //Header//
 
 
