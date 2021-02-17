@@ -1,0 +1,58 @@
+.project{
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio h2{
+  text-align: center;
+  font-size: 60px;
+}
+
+.background-1{
+  justify-content: space-between;
+  background-image: url('../../Img/card-img.png');
+  background-repeat: no-repeat;
+}
+.category{
+  padding-bottom: 40%;
+}
+
+.white-logo-p{
+  padding-top: 3%;
+  padding-left: 5%;
+}
+
+.background-2{
+  justify-content: space-between;
+  background-image: url('../../Img/card-img.png');
+  background-repeat: no-repeat;
+}
+
+.background-3{
+  justify-content: space-between;
+  background-image: url('../../Img/card-img.png');
+  background-repeat: no-repeat;
+}
+.background-4{
+  justify-content: space-between;
+  background-image: url('../../Img/card-img.png');
+  background-repeat: no-repeat;
+}
+
+.first-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.second-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.third-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

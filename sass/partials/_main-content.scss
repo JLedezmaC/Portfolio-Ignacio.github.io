@@ -1,0 +1,102 @@
+.second-wrapper{
+  background-color:#0b0b0b;
+}
+.content-skills{
+  display: flex;
+}
+
+.web-skills{
+  justify-content: space-between;
+  padding-left: 9%;
+  padding-right: 17%;
+}
+
+.web-skills h2{
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.web-skills img{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.design-skills{
+  justify-content: space-between;
+  padding-left: 3%;
+  padding-right: 5%;
+}
+
+.design-skills h2{
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.design-skills img{
+  margin-left: 15px;
+}
+
+.soft-skills{
+  justify-content: space-between;
+  padding-left: 14%;
+}
+
+
+.soft-skills h2{
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+
+.soft-skills p{
+  font-size: 20px;
+}
+
+.Projects{
+  font-size: 60px;
+  padding-left: 6%;
+}
+
+.Main-content2{
+  display: flex
+}
+
+.category2{
+  padding-bottom: 38%;
+}
+
+.background-firstproject{
+  width: 100%;
+  justify-content: space-between;
+  margin-left: 6%;
+  @include backgroundProyects;
+}
+
+.background-secondproject{
+  width: 100%;
+  justify-content: space-between;
+  @include backgroundProyects;
+}
+
+
+.background-thirproject{
+  width: 100%;
+  justify-content: space-between;
+  @include backgroundProyects;
+}
+
+.More-projects{
+  padding-top:3%;
+  display: flex;
+  justify-content: center;
+}
+
+.More-projects a{
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.More-projects a:hover{
+  border-bottom: 1px solid white;
+}

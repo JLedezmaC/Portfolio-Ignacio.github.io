@@ -1,0 +1,26 @@
+*{
+  color: white;
+}
+
+body{
+  font-family: 'Abhaya Libre', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0b0b0b;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.main-wrapper{
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.second-wrapper{
+  max-width: 1440px;
+  margin: 0 auto;
+}

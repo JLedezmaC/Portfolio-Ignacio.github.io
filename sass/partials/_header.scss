@@ -1,0 +1,129 @@
+/* Animation */
+.red-logo{
+  padding-top: 3%;
+  padding-left: 5%;
+}
+
+.menu{
+  float: right;
+  padding-top: 1%;
+}
+
+.menu li{
+  list-style: none;
+  float: left;
+  margin-left: 50px;
+}
+
+
+.menu a{
+  position: relative;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 15px 30px;
+  color: white;
+  transition: 0.2s;
+  background: linear-gradient(90deg,#03a9f4,#9e1e64,#cebb10,#03a9f4);
+  background-size: 400px;
+  border-radius: 30px;
+}
+
+.menu a:hover{
+  animation: animate 4s linear infinite;
+}
+
+@keyframes animate{
+  0%{
+    background-position: 0%;
+  }100%{
+    background-position: 400%;
+  }
+}
+
+.menu a::before{
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  background-size: 400px;
+  border-radius: 40px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.menu a:hover::before{
+  filter: blur(20px);
+  opacity: 1;
+}
+
+.background-img{
+  z-index: -1;
+  margin-left: 8%;
+}
+
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+  blinkTextCursor 1s steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 22.8rem;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-style: hidden;}
+}
+
+/* Animation */
+
+//Header//
+.main-content{
+  width: 100%;
+}
+
+.myself{
+  background-image: url('../../Img/Nacho-removebg-preview.png');
+  background-repeat: no-repeat;
+  height: 10%;
+  margin-top: 6%;
+  background-position-x: 48%;
+  float: left;
+  width: 55%;
+
+}
+
+
+.myself h2{
+  font-size: 60px;
+  margin-bottom: 0;
+  padding-top: 6%;
+  padding-left: 11%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.social-media_header{
+  padding: 0 0 34%  21%;
+}
+
+.social-media_header img{
+  padding-left: 1%;
+  height: 30px;
+}
+
+.about-me{
+  padding-top: 9%;
+}
+
+
+.about-me p{
+  font-size: 25px;
+}
+
+//Header//
+
+

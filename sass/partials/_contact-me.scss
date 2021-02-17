@@ -1,0 +1,105 @@
+.white-logo{
+  padding-top: 3%;
+  padding-left: 4.5%;
+}
+
+.info-contact-me{
+  margin-left: 5%;
+  margin-top: 13%;
+  width: 50%;
+  float: left;
+}
+
+.info-contact-me img{
+  width:45px ;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.localizacion{
+  display: flex;
+  margin-bottom: 3%;
+}
+.Correo{
+  display: flex;
+  margin-bottom: 3%;
+}
+
+.Telefono{
+  display: flex;
+}
+
+.info-contact-me h3{
+  color:#82CACE;
+  margin-top: 15px;
+}
+
+.contact-me{
+  width: 45%;
+  float: right;
+}
+
+.Contact{
+  text-align: center;
+}
+
+.Contact h2{
+  font-size: 40px;
+}
+
+.Contact p{
+  font-size: 20px;
+}
+
+.form input:nth-child(1){
+  margin-top: 5%;
+}
+
+.form  h2{
+    font-size: 20px;
+    margin: 0;
+    color: #CD8038;
+}
+
+.form input:hover{
+  border-bottom: 2px solid cornflowerblue;
+}
+
+.form textarea{
+  border: none;
+  border-bottom: 2px solid  white ;
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 60px;
+}
+
+.form input{
+  font-size: 20px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid  white ;
+  margin-bottom: 8%;
+}
+
+//Cambia el color del placeholder//
+.form input::-webkit-input-placeholder { color: #CD8038; }
+
+.form button{
+  margin-top: 3%;
+  margin: 0 auto;
+  display: block;
+  font-size: 25px;
+  background-color: #2E4D89;
+  border: none;
+  padding: 18px 100px 18px 100px;
+  border-radius: 4px;
+}
+
+.form button:hover{
+  color: #060607;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3,
+              0 0 40px #2196f3,
+              0 0 80px #2196f3;
+}
