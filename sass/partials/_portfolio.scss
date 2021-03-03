@@ -4,17 +4,13 @@
 }
 
 .portfolio h2{
+  margin-bottom: 0;
   text-align: center;
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 
-.background-1{
-  justify-content: space-between;
-  background-image: url('../../Img/card-img.png');
-  background-repeat: no-repeat;
-}
 .category{
-  padding-bottom: 40%;
+  padding-bottom: 69%;
 }
 
 .white-logo-p{
@@ -22,30 +18,74 @@
   padding-left: 5%;
 }
 
+.background-1{
+  @include backgroundProyects;
+  background-image: url('../../Img/orange-website.png');
+}
+
 .background-2{
-  justify-content: space-between;
-  background-image: url('../../Img/card-img.png');
-  background-repeat: no-repeat;
+  @include backgroundProyects;
+  background-image: url('../../Img/Red-page.png');
 }
 
 .background-3{
-  justify-content: space-between;
-  background-image: url('../../Img/card-img.png');
-  background-repeat: no-repeat;
+  @include backgroundProyects;
+  background-image: url('../../Img/travelio2.png');
 }
 .background-4{
-  justify-content: space-between;
-  background-image: url('../../Img/card-img.png');
-  background-repeat: no-repeat;
+  @include backgroundProyects;
+  background-image: url('../../Img/Bear.png');
 }
 
+.background-5{
+  @include backgroundProyects;
+  background-image: url('../../Img/card-img.png');
+}
+
+.background-6{
+  @include backgroundProyects;
+  background-image: url('../../Img/card-img.png');
+}
+.background-7{
+  @include backgroundProyects;
+  background-image: url('../../Img/card-img.png');
+}
+
+.background-8{
+  @include backgroundProyects;
+  background-image: url('../../Img/card-img.png');
+}
+
+.background-9{
+  @include backgroundProyects;
+  background-image: url('../../Img/card-img.png');
+}
+
+.background-10{
+  @include backgroundProyects;
+  background-image: url('../../Img/card-img.png');
+}
+
+.background-11{
+  @include backgroundProyects;
+  background-image: url('../../Img/card-img.png');
+}
+
+.background-12{
+  @include backgroundProyects;
+  background-image: url('../../Img/card-img.png');
+}
+
+
 .first-section{
+  margin-bottom: 3%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .second-section{
+  margin-bottom: 3%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -55,4 +95,31 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.total-projects{
+  text-align: center;
+  font-size: 25px;
+  display: block;
+}
+.total-projects a{
+  text-decoration: none;
+  animation: animateAncord 1s linear infinite;
+}
+
+@keyframes animateAncord
+{
+  0%,80%{
+    color: #333;
+    text-shadow: none;
+  }
+  100%{
+    color: rgb(231, 233, 102);
+    text-shadow: 0 0 10px  rgb(231, 233, 102),
+                0 0 20px  rgb(231, 233, 102),
+                0 0 40px  rgb(231, 233, 102),
+                0 0 80px  rgb(231, 233, 102),
+                0 0 120px  rgb(231, 233, 102),
+                0 0 160px  rgb(231, 233, 102);
+  }
 }

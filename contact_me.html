@@ -28,9 +28,9 @@
           </ul>
         </div>
         <div class="hamburger">
-          <div class="_layer -top"></div>
-          <div class="_layer -mid"></div>
-          <div class="_layer -bottom"></div>
+          <div class="layer top"></div>
+          <div class="layer mid"></div>
+          <div class="layer bottom"></div>
         </div>
       </div>
       <div class="info-contact-me">
@@ -69,15 +69,19 @@
         </div>
         <div class="form">
           <form>
-            <input type="text" placeholder="Full name" required='required'>
-            <input type="email" placeholder="Email-address" required='required'>
-            <input type="number" placeholder="Phone Number" required='required'>
-            <h2>Type your message...</h2>
+            <label for="name">Name</label>
+            <input type="text"required='required' id="name">
+            <label for="email">E-mail</label>
+            <input type="email" required='required' id="email">
+            <label for="number">Phone Number</label>
+            <input type="number" required='required' id="number">
+            <h2>Message</h2>
             <textarea name="Message" required='required'></textarea>
             <button>Submit</button>
           </form>
         </div>
       </div>
     </div>
+    <script src="js/script.js"></script>
   </body>
 </html>

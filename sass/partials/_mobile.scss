@@ -1,5 +1,6 @@
 @media(max-width:767px){
   .red-logo img{
+    padding-top: 0%;
     width: 68px;
   }
 
@@ -32,7 +33,7 @@
   .hamburger.is-active{
     background-color:none;
   }
-  ._layer{
+  .layer{
     background:#2fe4aa;
     margin-bottom:4px;
     border-radius:2px;
@@ -44,25 +45,25 @@
     -webkit-transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
     transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
   }
-  .hamburger:hover .-top{
+  .hamburger:hover .top{
     -webkit-transform:translateY(-100%);
     -ms-transform:translateY(-100%);
     transform:translateY(-100%);
   }
-  .hamburger:hover .-bottom{
+  .hamburger:hover .bottom{
     -webkit-transform:translateY(100%);
     -ms-transform:translateY(100%);
     transform:translateY(100%);
     }
-  .hamburger.is-active .-top{
+  .hamburger.is-active .top{
     -webkit-transform:translateY(200%) rotate(45deg) !important;
     -ms-transform:translateY(200%) rotate(45deg) !important;
     transform:translateY(200%) rotate(45deg) !important;
   }
-  .hamburger.is-active .-mid{
+  .hamburger.is-active .mid{
     opacity:0;
   }
-  .hamburger.is-active .-bottom{
+  .hamburger.is-active .bottom{
     -webkit-transform:translateY(-200%) rotate(135deg) !important;
     -ms-transform:translateY(-200%) rotate(135deg) !important;
     transform:translateY(-200%) rotate(135deg) !important;
@@ -72,7 +73,7 @@
     transform: translate3d(0px, 0px, 0px);
   }
   .menuppal{
-      background-color: #832323;
+      background-color: rgba(85, 85, 79, 0.4);
       bottom: 0;
       height: 100%;
       left: 0;
@@ -166,8 +167,17 @@
   }
 
   .Projects {
+    justify-content: center;
+    display: flex;
     text-align: center;
     padding-left: 0;
+    margin: auto;
+    margin-bottom: 10%;
+  }
+
+  .project{
+    justify-content: center;
+    align-items: center;
   }
 
   .Main-content2 {
@@ -175,17 +185,18 @@
   }
 
   .background-firstproject{
-    margin-left: 23%;
     margin-bottom: 4%;
+    height: 300px;
+    margin-left: 0%;
   }
 
   .background-secondproject{
-    margin-left: 23%;
     margin-bottom: 4%;
+    height: 294px;
   }
 
   .background-thirproject{
-    margin-left: 23%;
+    height: 280px;
     margin-bottom: 4%;
   }
 
@@ -232,11 +243,25 @@
   }
 
   .info-contact-me {
+    width: 100%;
     margin-top: 6%;
-    display: flex;
+    display: unset;
+    margin: 0 auto;
+  }
+
+  .info-contact-me img{
+    margin-top: 0;
+    margin-right: 0;
   }
   .localizacion {
-    margin-right: 22%;
+    text-align: center;
+    margin-right: 0%;
+    display: unset;
+  }
+
+  .Correo{
+    text-align: center;
+    display: unset;
   }
 
   .info-contact-me h3 {
@@ -244,28 +269,79 @@
   }
 
   .Telefono {
-    margin-left: 15%;
+    margin-left: 0;
+    text-align: center;
+    display: unset;
   }
   .background-1 {
+    @include backroundPhone;
     margin-right: 4%;
   }
 
   .background-2 {
+    @include backroundPhone;
     margin-right: 4%;
   }
 
   .background-3 {
+    @include backroundPhone;
     margin-right: 4%;
   }
 
+  .background-4 {
+    @include backroundPhone;
+  }
+
+  .background-5 {
+    @include backroundPhone;
+  }
+
+  .background-6 {
+    @include backroundPhone;;
+  }
+
+  .background-7 {
+    @include backroundPhone;
+  }
+  .background-8 {
+    @include backroundPhone;
+  }
+  .background-9 {
+    @include backroundPhone;
+  }
+  .background-10 {
+    @include backroundPhone;
+  }
+  .background-11 {
+    @include backroundPhone;
+  }
+  .background-12 {
+    @include backroundPhone;
+  }
+
+
   .white-logo-p img {
     padding-top: 6.3%;
-    width: 68px;
+    width: 91px;
   }
   .white-logo img{
     padding-top: 6.3%;
     padding-left: 0.5%;
     width: 68px;
+  }
+  .white-logo{
+    margin-bottom: 18%;
+  }
+  .first-section{
+    display: unset;
+  }
+
+  .second-section{
+    display: unset;
+  }
+
+  .third-section{
+    display: unset;
   }
 }
 

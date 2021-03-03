@@ -1,4 +1,40 @@
 /* Animation */
+
+.content-skills h2{
+  position: relative;
+}
+
+.content-skills h2:before {
+  @include animationBorder;
+}
+
+h2:hover:before {
+  width: 100%;
+}
+
+.More-projects a{
+  position: relative;
+}
+
+.More-projects a::before{
+  @include animationBorder;
+}
+
+.More-projects a:hover:before {
+  width: 100%;
+}
+.Projects{
+  position: relative;
+}
+
+.Projects::before{
+  @include animationBorder;
+}
+
+.Projects:hover::before{
+  width: 100%;
+}
+
 .red-logo{
   padding-top: 3%;
   padding-left: 5%;
@@ -20,13 +56,10 @@
 .menu a{
   position: relative;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 1.875rem;
   padding: 15px 30px;
   color: white;
   transition: 0.2s;
-  background: linear-gradient(90deg,#03a9f4,#9e1e64,#cebb10,#03a9f4);
-  background-size: 400px;
-  border-radius: 30px;
 }
 
 .menu a:hover{
@@ -37,7 +70,7 @@
   0%{
     background-position: 0%;
   }100%{
-    background-position: 400%;
+    background-position: 100%;
   }
 }
 
@@ -49,15 +82,18 @@
   right: -5px;
   bottom: -5px;
   z-index: -1;
-  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
-  background-size: 400px;
-  border-radius: 40px;
+  background: #a72844;;
+  box-shadow: 0 0 10px #a72844,
+              0 0 20px #a72844,
+              0 0 40px #a72844;
+  background-size: 100px;
+  border-radius: 20px;
   opacity: 0;
   transition: 0.5s;
 }
 
 .menu a:hover::before{
-  filter: blur(20px);
+  filter: blur(30px);
   opacity: 1;
 }
 
@@ -103,7 +139,7 @@
 
 
 .myself h2{
-  font-size: 60px;
+  font-size: 3.75rem;
   margin-bottom: 0;
   padding-top: 6%;
   padding-left: 11%;
@@ -118,6 +154,7 @@
 .social-media_header img{
   padding-left: 1%;
   height: 30px;
+  max-width: 100%;
 }
 
 .about-me{

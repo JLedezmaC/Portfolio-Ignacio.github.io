@@ -10,11 +10,18 @@
 }
 
 .contact-left p{
-  font-size: 20px;
+  font-size: 1.25rem;
 }
-.contact-left p:nth-child(2){
+
+.blue-paragraph{
   color: #3186D4;
 }
+
+.contact-left a{
+  text-decoration: none;
+}
+
+
 .white-logo-footer{
   padding-left: 9%;
 }
@@ -25,7 +32,7 @@
   text-align: center;
 }
 .main-footer p{
-  margin-top: 36px;
+  margin-top:6.25%;
 }
 
 .footer-contact{
@@ -34,26 +41,32 @@
 }
 
 .footer-contact h2{
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 .footer-contact input{
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: transparent;
   border: none;
   border-bottom: 3px solid #782436;
   color: rgb(214, 191, 191);
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 
 .footer-contact button{
   margin: 0 auto;
   display: block;
-  font-size: 16px;
+  font-size: 1rem;
   background-color: #782436;
   border: none;
-  padding: 6px 20px 6px 20px;
+  padding: 17px 50px 17px 50px;
   border-radius: 4px;
+}
+.footer-contact button:hover{
+  background: #a72844;
+  box-shadow: 0 0 10px #a72844,
+              0 0 40px #a72844,
+              0 0 50px #a72844;
 }
 
 .social-media_footer{
@@ -62,5 +75,8 @@
 
 .social-media_footer img{
   height: 24px;
-  width: 24px;
+  max-width: 100%;
+  padding-left: 2%;
 }
+
+

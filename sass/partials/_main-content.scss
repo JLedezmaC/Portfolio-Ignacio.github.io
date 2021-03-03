@@ -12,14 +12,16 @@
 }
 
 .web-skills h2{
+  display: inline-block;
   letter-spacing: 2px;
   text-align: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 .web-skills img{
   margin-left: 15px;
   margin-top: 10px;
+  max-width: 100%;
 }
 
 .design-skills{
@@ -29,9 +31,10 @@
 }
 
 .design-skills h2{
+  display: inline-block;
   letter-spacing: 2px;
   text-align: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 .design-skills img{
@@ -43,10 +46,15 @@
   padding-left: 14%;
 }
 
+.team-player{
+  margin-top: 0;
+}
+
 
 .soft-skills h2{
   letter-spacing: 2px;
-  font-size: 40px;
+  font-size: 2.5rem;
+  display: inline-block;
 }
 
 .soft-skills p{
@@ -54,8 +62,9 @@
 }
 
 .Projects{
+  display: inline-block;
   font-size: 3.75rem;
-  padding-left: 6%;
+  margin-left: 6%;
 }
 
 .Main-content2{
@@ -63,27 +72,30 @@
 }
 
 .category2{
-  padding-bottom: 38%;
+  padding-bottom: 56%;
 }
 
 .background-firstproject{
   width: 100%;
   justify-content: space-between;
   margin-left: 6%;
-  @include backgroundProyects;
+  background-image: url(../../Img/img-1.png);
+  background-repeat: no-repeat;
 }
 
 .background-secondproject{
-  width: 100%;
   justify-content: space-between;
-  @include backgroundProyects;
+  width: 100%;
+  background-image: url('../../Img//Cuda.png');
+  background-repeat: no-repeat;
 }
 
 
 .background-thirproject{
-  width: 100%;
   justify-content: space-between;
-  @include backgroundProyects;
+  width: 100%;
+  background-image: url('../../Img/Red-page.png');
+  background-repeat: no-repeat;
 }
 
 .More-projects{
@@ -93,10 +105,6 @@
 }
 
 .More-projects a{
-  font-size: 30px;
+  font-size: 1.875rem;
   text-decoration: none;
-}
-
-.More-projects a:hover{
-  border-bottom: 1px solid white;
 }

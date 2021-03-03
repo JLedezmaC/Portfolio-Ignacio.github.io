@@ -1,11 +1,12 @@
 .white-logo{
   padding-top: 3%;
   padding-left: 4.5%;
+  margin-bottom: 6%;
 }
 
 .info-contact-me{
+  margin-top: 8.3%;
   margin-left: 5%;
-  margin-top: 13%;
   width: 50%;
   float: left;
 }
@@ -14,6 +15,18 @@
   width:45px ;
   margin-top: 20px;
   margin-right: 20px;
+}
+
+.ubicacion{
+  font-size: 1.5rem;
+}
+
+.E-mail{
+  font-size: 1.5rem;
+}
+
+.Phone{
+  font-size: 1.5rem;
 }
 
 .localizacion{
@@ -44,11 +57,11 @@
 }
 
 .Contact h2{
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 .Contact p{
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .form input:nth-child(1){
@@ -56,9 +69,9 @@
 }
 
 .form  h2{
-    font-size: 20px;
-    margin: 0;
-    color: #CD8038;
+  font-size: 1.25rem;
+  margin: 0;
+  color: #9f9a96;
 }
 
 .form input:hover{
@@ -75,7 +88,7 @@
 }
 
 .form input{
-  font-size: 20px;
+  font-size: 1.25rem;
   width: 100%;
   background-color: transparent;
   border: none;
@@ -84,14 +97,14 @@
 }
 
 //Cambia el color del placeholder//
-.form input::-webkit-input-placeholder { color: #CD8038; }
+.form input::-webkit-input-placeholder {color: #9f9a96; }
 
 .form button{
   margin-top: 3%;
   margin: 0 auto;
   display: block;
-  font-size: 25px;
-  background-color: #2E4D89;
+  font-size: 1.56rem;
+  background-color: #782436;
   border: none;
   padding: 18px 100px 18px 100px;
   border-radius: 4px;
@@ -99,12 +112,11 @@
 
 .form button:hover{
   color: #060607;
-  background: #2196f3;
-  box-shadow: 0 0 10px #2196f3,
-              0 0 40px #2196f3,
-              0 0 80px #2196f3;
+  background: #a72844;
+  box-shadow: 0 0 10px #a72844,
+              0 0 40px #a72844,
 }
 
 #special-menu{
-  padding-right: 5%;
+  padding-right: 0.5%;
 }
