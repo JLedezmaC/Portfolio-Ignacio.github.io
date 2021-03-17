@@ -1,23 +1,28 @@
-
-@mixin backgroundProyects {
-  background-size: cover;
-  width: 20%;
-  justify-content: space-between;
-  background-repeat: no-repeat;
+@mixin animationBorder {
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  transition: all .3s;
 }
 
 @mixin  backroundPhone{
-  width: 330px;
   margin-bottom: 5%;
+  width: 330px;
 }
 
-@mixin animationBorder {
-  position: absolute;
-  bottom: 0;
-  content: "";
-  display: block;
-  width: 0;
-  height: 3px;
-  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
-  transition: all .3s;
+@mixin backgroundProyects {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20%;
+  justify-content: space-between;
+}
+
+@mixin HoverProjects {
+  box-shadow: 0 0 10px white,
+  0 0 20px white,
+  0 0 30px white;
 }

@@ -5,18 +5,19 @@
   }
 
   .red-logo {
-    padding-top: 9%;
     padding-left: 5%;
+    padding-top: 9%;
   }
   .hamburguer{
     display: block;
   }
   .hamburger{
-    position: absolute;
     background-color: transparent;
+    position: absolute;
+    cursor:pointer;
+    height:30px;
     right: 5%;
     top: 6%;
-    height:30px;
     width:30px;
     padding:20px 20px;
     -webkit-transform:translate3d(0, 0, 0);
@@ -24,7 +25,6 @@
     -webkit-transition:-webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
     transition:transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
     z-index:1002;
-    cursor:pointer;
     -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
@@ -35,10 +35,10 @@
   }
   .layer{
     background:#2fe4aa;
-    margin-bottom:4px;
     border-radius:2px;
-    width:28px;
     height:4px;
+    margin-bottom:4px;
+    width:28px;
     opacity:1;
     -webkit-transform:translate3d(0, 0, 0);
     transform:translate3d(0, 0, 0);
@@ -92,15 +92,15 @@
     padding: 0;
   }
   .menuppal ul li {
-    list-style: none;
-    padding-right: 8%;
-    padding-left: 11%;
     color: white;
     font-size: 2.5rem;
-    line-height:3em;
-    height:3em;
-    text-transform:none;
     font-weight:bold;
+    height:3em;
+    list-style: none;
+    line-height:3em;
+    padding-right: 8%;
+    padding-left: 11%;
+    text-transform:none;
   }
 
   .menuppal ul li:nth-child(1){
@@ -108,14 +108,14 @@
   }
 
   .menuppal ul li a{
-    text-decoration:none;
     background: black;
     border-radius: unset;
+    text-decoration:none;
   }
 
   .menuppal ul li a:hover{
-    text-decoration:none;
     color:white;
+    text-decoration:none;
   }
 
   .menu li{
@@ -124,8 +124,8 @@
   }
 
   .myself{
-    width: 100%;
     background-size: contain;
+    width: 100%;
   }
 
   .myself h2{
@@ -133,8 +133,8 @@
   }
 
   .about-me {
-    text-align: center;
     float: right;
+    text-align: center;
     width: 100%;
     padding-top: 5%;
   }
@@ -154,30 +154,30 @@
   }
 
   .design-skills {
-    text-align: center;
     justify-content: unset;
     padding-left: 0%;
     padding-right: 0%;
+    text-align: center;
   }
 
   .soft-skills {
-    text-align: center;
     justify-content:unset;
     padding-left: 0%;
+    text-align: center;
   }
 
   .Projects {
-    justify-content: center;
     display: flex;
-    text-align: center;
-    padding-left: 0;
     margin: auto;
     margin-bottom: 10%;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0;
   }
 
   .project{
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
 
   .Main-content2 {
@@ -185,14 +185,14 @@
   }
 
   .background-firstproject{
-    margin-bottom: 4%;
     height: 300px;
+    margin-bottom: 4%;
     margin-left: 0%;
   }
 
   .background-secondproject{
-    margin-bottom: 4%;
     height: 294px;
+    margin-bottom: 4%;
   }
 
   .background-thirproject{
@@ -212,13 +212,12 @@
   .contact-left {
     text-align: center;
     padding-left: 0;
-
   }
 
   .white-logo-footer {
+    margin-top: 2%;
     padding-left: 0%;
     width: 68px;
-    margin-top: 2%;
   }
 
   .social-media_footer {
@@ -231,8 +230,8 @@
   }
 
   .footer-contact {
-    text-align: center;
     padding-left: 0%;
+    text-align: center;
   }
   .footer-contact input{
     margin-bottom: 4%;
@@ -243,10 +242,10 @@
   }
 
   .info-contact-me {
-    width: 100%;
-    margin-top: 6%;
     display: unset;
+    margin-top: 6%;
     margin: 0 auto;
+    width: 100%;
   }
 
   .info-contact-me img{
@@ -254,14 +253,14 @@
     margin-right: 0;
   }
   .localizacion {
+    display: unset;
     text-align: center;
     margin-right: 0%;
-    display: unset;
   }
 
   .Correo{
-    text-align: center;
     display: unset;
+    text-align: center;
   }
 
   .info-contact-me h3 {
@@ -269,9 +268,9 @@
   }
 
   .Telefono {
+    display: unset;
     margin-left: 0;
     text-align: center;
-    display: unset;
   }
   .background-1 {
     @include backroundPhone;
@@ -324,14 +323,6 @@
     padding-top: 6.3%;
     width: 91px;
   }
-  .white-logo img{
-    padding-top: 6.3%;
-    padding-left: 0.5%;
-    width: 68px;
-  }
-  .white-logo{
-    margin-bottom: 18%;
-  }
   .first-section{
     display: unset;
   }
@@ -343,5 +334,20 @@
   .third-section{
     display: unset;
   }
-}
+  svg{
+    width: 20%;
+    height: 20%;
+  }
 
+  .main-footer p{
+    margin-left: 0;
+  }
+
+  .social-media_footer{
+    margin-left: 0;
+  }
+
+  .web-skills h2{
+    display: block;
+  }
+}

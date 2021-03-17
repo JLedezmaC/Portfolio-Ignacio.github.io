@@ -4,9 +4,9 @@
 }
 
 .portfolio h2{
+  font-size: 3.75rem;
   margin-bottom: 0;
   text-align: center;
-  font-size: 3.75rem;
 }
 
 .category{
@@ -17,7 +17,17 @@
   padding-top: 3%;
   padding-left: 5%;
 }
+.first-section div:hover{
+  @include HoverProjects;
+}
 
+.second-section div:hover{
+  @include HoverProjects;
+}
+
+.third-section div:hover{
+  @include HoverProjects;
+}
 .background-1{
   @include backgroundProyects;
   background-image: url('../../Img/orange-website.png');
@@ -78,17 +88,17 @@
 
 
 .first-section{
-  margin-bottom: 3%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 3%;
 }
 
 .second-section{
-  margin-bottom: 3%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 3%;
 }
 
 .third-section{
@@ -98,13 +108,14 @@
 }
 
 .total-projects{
-  text-align: center;
-  font-size: 25px;
   display: block;
+  font-size: 25px;
+  text-align: center;
 }
+
 .total-projects a{
-  text-decoration: none;
   animation: animateAncord 1s linear infinite;
+  text-decoration: none;
 }
 
 @keyframes animateAncord
@@ -122,4 +133,10 @@
                 0 0 120px  rgb(231, 233, 102),
                 0 0 160px  rgb(231, 233, 102);
   }
+}
+
+.white-logo-2{
+  color: #060607;
+  padding-top: 3%;
+  padding-left: 5%;
 }

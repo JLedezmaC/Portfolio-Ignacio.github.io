@@ -1,21 +1,28 @@
 .second-wrapper{
   background-color:#0b0b0b;
 }
+
 .content-skills{
   display: flex;
+  align-items: center;
 }
 
 .web-skills{
   justify-content: space-between;
-  padding-left: 9%;
   padding-right: 17%;
+  text-align: center;
+}
+
+.web-skills .web-img{
+  display: block;
+  margin: 0 auto;
 }
 
 .web-skills h2{
+  font-size: 2.5rem;
   display: inline-block;
   letter-spacing: 2px;
-  text-align: center;
-  font-size: 2.5rem;
+  margin: 0;
 }
 
 .web-skills img{
@@ -24,21 +31,32 @@
   max-width: 100%;
 }
 
+
+.web-skills p{
+  font-size: 1.25rem;
+}
+
 .design-skills{
   justify-content: space-between;
   padding-left: 3%;
   padding-right: 5%;
 }
 
-.design-skills h2{
-  display: inline-block;
-  letter-spacing: 2px;
-  text-align: center;
-  font-size: 2.5rem;
+.design-skills img{
+  display: block;
+  margin: 0 auto;
 }
 
-.design-skills img{
-  margin-left: 15px;
+.design-skills h2{
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  margin: 0;
+  text-align: center;
+}
+
+.design-skills p{
+  font-size: 1.25rem;
+  text-align: center;
 }
 
 .soft-skills{
@@ -46,19 +64,21 @@
   padding-left: 14%;
 }
 
-.team-player{
-  margin-top: 0;
+.soft-skills img{
+  display: block;
+  margin: 0 auto;
 }
 
-
 .soft-skills h2{
-  letter-spacing: 2px;
+  text-align: center;
   font-size: 2.5rem;
-  display: inline-block;
+  letter-spacing: 2px;
+  margin: 0;
 }
 
 .soft-skills p{
   font-size: 1.25rem;
+  text-align: center;
 }
 
 .Projects{
@@ -71,37 +91,36 @@
   display: flex
 }
 
-.category2{
-  padding-bottom: 56%;
-}
-
 .background-firstproject{
-  width: 100%;
+  background-image: url('../../Img/img-1.png');
+  background-repeat: no-repeat;
+  height: 17.5rem;
   justify-content: space-between;
   margin-left: 6%;
-  background-image: url(../../Img/img-1.png);
-  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .background-secondproject{
-  justify-content: space-between;
-  width: 100%;
   background-image: url('../../Img//Cuda.png');
   background-repeat: no-repeat;
+  height: 17.5rem;
+  justify-content: space-between;
+  width: 100%;
 }
 
 
 .background-thirproject{
-  justify-content: space-between;
-  width: 100%;
   background-image: url('../../Img/Red-page.png');
   background-repeat: no-repeat;
+  height: 17.5rem;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .More-projects{
-  padding-top:3%;
   display: flex;
   justify-content: center;
+  padding-top:3%;
 }
 
 .More-projects a{

@@ -45,6 +45,3 @@ function addData(data){
     formulario.elements[3].value = "";
   });
 }
-
-
-

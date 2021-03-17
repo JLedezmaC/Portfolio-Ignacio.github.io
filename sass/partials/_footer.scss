@@ -27,40 +27,36 @@
 }
 
 .main-footer{
-  padding-left: 24%;
   justify-content: space-between;
   text-align: center;
+  padding-left: 24%;
 }
 .main-footer p{
   margin-top:6.25%;
+  margin-left: 7%;
 }
 
 .footer-contact{
-  padding-left: 20%;
   justify-content: space-between;
+  padding-left: 20%;
 }
-
-.footer-contact h2{
-  font-size: 1.875rem;
-}
-
 .footer-contact input{
+  color: rgb(214, 191, 191);
   font-size: 1.25rem;
   background-color: transparent;
   border: none;
   border-bottom: 3px solid #782436;
-  color: rgb(214, 191, 191);
   margin-bottom: 15%;
 }
 
 .footer-contact button{
-  margin: 0 auto;
-  display: block;
-  font-size: 1rem;
+  border-radius: 4px;
   background-color: #782436;
   border: none;
+  display: block;
+  font-size: 1rem;
+  margin: 0 auto;
   padding: 17px 50px 17px 50px;
-  border-radius: 4px;
 }
 .footer-contact button:hover{
   background: #a72844;
@@ -71,12 +67,17 @@
 
 .social-media_footer{
   margin-top: 10%;
+  margin-left: 5%;
 }
 
 .social-media_footer img{
   height: 24px;
   max-width: 100%;
   padding-left: 2%;
+}
+
+.footer-contact h2{
+  font-size: 1.875rem;
 }
 
 
