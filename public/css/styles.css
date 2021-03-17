@@ -284,7 +284,8 @@ h2:hover:before {
   height: 17.5rem;
   justify-content: space-between;
   margin-left: 6%;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
 
 .background-secondproject {
   background-image: url("../../Img//Cuda.png");
@@ -311,7 +312,7 @@ h2:hover:before {
 
 .footer {
   display: flex;
-  padding-top: 10%;
+  padding-top: 7%;
   padding-bottom: 5%; }
 
 .contact-left {
@@ -388,18 +389,14 @@ h2:hover:before {
 .category {
   padding-bottom: 69%; }
 
+.category a {
+  float: right;
+  text-decoration: none;
+  color: #e1d4e4; }
+
 .white-logo-p {
   padding-top: 3%;
   padding-left: 5%; }
-
-.first-section div:hover {
-  box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white; }
-
-.second-section div:hover {
-  box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white; }
-
-.third-section div:hover {
-  box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white; }
 
 .background-1 {
   background-repeat: no-repeat;

@@ -13,21 +13,18 @@
   padding-bottom: 69%;
 }
 
+.category a{
+  float: right;
+  text-decoration: none;
+  color: rgb(225, 212, 228);
+}
+
+
 .white-logo-p{
   padding-top: 3%;
   padding-left: 5%;
 }
-.first-section div:hover{
-  @include HoverProjects;
-}
 
-.second-section div:hover{
-  @include HoverProjects;
-}
-
-.third-section div:hover{
-  @include HoverProjects;
-}
 .background-1{
   @include backgroundProyects;
   background-image: url('../../Img/orange-website.png');
