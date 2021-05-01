@@ -12,17 +12,6 @@ h2:hover:before {
   width: 100%;
 }
 
-.More-projects a{
-  position: relative;
-}
-
-.More-projects a::before{
-  @include animationBorder;
-}
-
-.More-projects a:hover:before {
-  width: 100%;
-}
 .Projects{
   position: relative;
 }
