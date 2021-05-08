@@ -648,6 +648,7 @@ h2:hover:before {
     background-size: contain;
     width: 100%; }
   .myself h2 {
+    font-size: 3.4rem;
     padding-left: 2%; }
   .about-me {
     float: right;
