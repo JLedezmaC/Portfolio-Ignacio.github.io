@@ -545,7 +545,8 @@ h2:hover:before {
     padding-top: 0%;
     width: 68px; }
   .grid {
-    width: 37rem; }
+    width: 23rem;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); }
   .red-logo {
     padding-left: 5%;
     padding-top: 9%; }
