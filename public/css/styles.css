@@ -107,33 +107,18 @@ h2:hover:before {
   position: relative;
   padding: 15px 30px; }
 
-.menu a:hover {
-  animation: animate 4s linear infinite; }
-
-@keyframes animate {
-  0% {
-    background-position: 0%; }
-  100% {
-    background-position: 100%; } }
+.menu a:hover::before {
+  width: 100%; }
 
 .menu a::before {
-  content: '';
-  background: #a72844;
-  background-size: 100px;
-  box-shadow: 0 0 10px #a72844, 0 0 20px #a72844, 0 0 40px #a72844;
-  border-radius: 20px;
-  transition: 1s;
-  opacity: 0;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  content: "";
+  display: block;
   position: absolute;
-  top: -5px;
-  left: -5px;
-  right: -5px;
-  bottom: -5px;
-  z-index: -1; }
-
-.menu a:hover::before {
-  filter: blur(30px);
-  opacity: 1; }
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  transition: all .3s; }
 
 .background-img {
   margin-left: 8%;
