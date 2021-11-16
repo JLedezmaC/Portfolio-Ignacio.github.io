@@ -91,42 +91,26 @@
   display: flex
 }
 
-.background-firstproject{
-  background-image: url('../../Img/img-1.png');
-  background-repeat: no-repeat;
-  height: 17.5rem;
-  justify-content: space-between;
-  margin-left: 6%;
-  width: 100%;
-  position: relative;
-}
-
-.background-secondproject{
-  background-image: url('../../Img//Cuda.png');
-  background-repeat: no-repeat;
-  height: 17.5rem;
-  justify-content: space-between;
-  width: 100%;
-}
-
-
-.background-thirproject{
-  background-image: url('../../Img/Red-page.png');
-  background-repeat: no-repeat;
-  height: 17.5rem;
-  justify-content: space-between;
-  width: 100%;
-}
-
-
-
-.More-projects{
+.more-projects{
   display: flex;
   justify-content: center;
   padding-top:3%;
+  margin-left: 3%;
 }
 
-.More-projects a{
+.more-projects a{
   font-size: 1.875rem;
   text-decoration: none;
+}
+
+.more-projects a{
+  position: relative;
+}
+
+.more-projects a::before{
+  @include animationBorder;
+}
+
+.more-projects a:hover:before {
+  width: 100%;
 }

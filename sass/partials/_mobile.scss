@@ -3,7 +3,14 @@
     padding-top: 0%;
     width: 68px;
   }
-
+  .grid{
+    width:23rem;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+  }
+  .grid2{
+    width:23rem;
+    grid-template-columns: repeat(auto-fit, minmax(23.5rem, 1fr));
+  }
   .red-logo {
     padding-left: 5%;
     padding-top: 9%;
@@ -17,7 +24,7 @@
     cursor:pointer;
     height:30px;
     right: 5%;
-    top: 6%;
+    top: 3%;
     width:30px;
     padding:20px 20px;
     -webkit-transform:translate3d(0, 0, 0);
@@ -129,7 +136,8 @@
   }
 
   .myself h2{
-    padding-left: 2%;;
+    font-size: 3.4rem;
+    padding-left: 2%;
   }
 
   .about-me {
